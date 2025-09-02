@@ -28,10 +28,10 @@ const Skills = () => {
   }, []);
 
   const skills = [
-    { name: "Portrait Photography", percentage: 95 },
+    { name: "Street Photography", percentage: 95 },
     { name: "Wedding Photography", percentage: 90 },
     { name: "Photo Editing", percentage: 92 },
-    { name: "Commercial Photography", percentage: 85 },
+    { name: "Landscape Photography", percentage: 85 },
   ];
   return (
     <div>

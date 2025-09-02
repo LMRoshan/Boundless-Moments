@@ -1,5 +1,10 @@
 import React from "react";
-import { FaLinkedinIn, FaTwitter, FaInstagram, FaFacebookF } from 'react-icons/fa';
+import {
+  FaLinkedinIn,
+  FaTwitter,
+  FaInstagram,
+  FaFacebookF,
+} from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -54,19 +59,16 @@ const Footer = () => {
               <h3>Services</h3>
               <ul>
                 <li>
-                  <a href="#">Portrait Photography</a>
+                  <a href="#">Street Photography</a>
                 </li>
                 <li>
                   <a href="#">Wedding Photography</a>
                 </li>
                 <li>
-                  <a href="#">Commercial Photography</a>
-                </li>
-                <li>
-                  <a href="#">Event Photography</a>
-                </li>
-                <li>
                   <a href="#">Photo Editing</a>
+                </li>
+                <li>
+                  <a href="#">Landscape Photography</a>
                 </li>
               </ul>
             </div>
