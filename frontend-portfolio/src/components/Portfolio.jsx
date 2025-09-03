@@ -22,7 +22,7 @@ const Portfolio = () => {
           <div className="col-12 col-sm-6 col-md-4 d-flex justify-content-center">
             <div
               className="card card-hover"
-              style={{ width: "23rem", height: "20rem" }}
+              style={{ width: "23rem", height: "27rem" }}
             >
               <img
                 className="card-img-top"
@@ -45,7 +45,7 @@ const Portfolio = () => {
           </div>
 
           <div className="col-12 col-sm-6 col-md-4 d-flex justify-content-center">
-            <div className="card" style={{ width: "23rem", height: "20rem" }}>
+            <div className="card" style={{ width: "23rem", height: "27rem" }}>
               <img
                 className="card-img-top"
                 src={Img2}
@@ -69,7 +69,7 @@ const Portfolio = () => {
           <div className="col-12 col-sm-6 col-md-4 d-flex justify-content-center">
             <div
               className="card card-hover"
-              style={{ width: "23rem", height: "20rem" }}
+              style={{ width: "23rem", height: "27rem" }}
             >
               <img
                 className="card-img-top"
