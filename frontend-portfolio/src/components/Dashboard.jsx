@@ -60,7 +60,7 @@ const Dashboard = () => {
         const errorData = await response.json();
         throw new Error(errorData.error || response.status);
       } else {
-        alert("Product deleted");
+        alert("Message deleted");
       }
 
       getMessage();
