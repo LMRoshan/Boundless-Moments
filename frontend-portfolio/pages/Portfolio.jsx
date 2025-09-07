@@ -25,7 +25,7 @@ const Portfolio = () => {
           <div className="col-12 col-sm-6 col-md-4 d-flex justify-content-center">
             <div
               className="card card-hover"
-              style={{ width: "23rem", height: "20rem" }}
+              style={{ width: "23rem", height: "30rem" }}
             >
               <img
                 className="card-img-top"
@@ -40,7 +40,7 @@ const Portfolio = () => {
                 <p className="card-text" style={{ color: "white" }}>
                   Capturing candid moments where city life tells its own story
                 </p>
-                <Link to="/street" className="btn">
+                <Link to="/construction" className="btn">
                   View More
                 </Link>
               </div>
@@ -48,7 +48,7 @@ const Portfolio = () => {
           </div>
 
           <div className="col-12 col-sm-6 col-md-4 d-flex justify-content-center">
-            <div className="card" style={{ width: "23rem", height: "20rem" }}>
+            <div className="card" style={{ width: "23rem", height: "30rem" }}>
               <img
                 className="card-img-top"
                 src={Img2}
@@ -62,7 +62,7 @@ const Portfolio = () => {
                   Preserving every glance, laugh, and tear from your special
                   day.
                 </p>
-                <Link to="/wedding" className="btn">
+                <Link to="/construction" className="btn">
                   View More
                 </Link>
               </div>
@@ -72,7 +72,7 @@ const Portfolio = () => {
           <div className="col-12 col-sm-6 col-md-4 d-flex justify-content-center">
             <div
               className="card card-hover"
-              style={{ width: "23rem", height: "20rem" }}
+              style={{ width: "23rem", height: "30rem" }}
             >
               <img
                 className="card-img-top"
@@ -86,7 +86,7 @@ const Portfolio = () => {
                 <p className="card-text" style={{ color: "white" }}>
                   Framing nature’s beauty in every horizon and detail.
                 </p>
-                <Link to="/landscape" className="btn">
+                <Link to="/construction" className="btn">
                   View More
                 </Link>
               </div>

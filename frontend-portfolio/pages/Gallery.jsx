@@ -1,6 +1,6 @@
 import React from "react";
-import Navbar from '../src/components/Navbar';
-import Footer from '../src/components/Footer';
+import Navbar from "../src/components/Navbar";
+import Footer from "../src/components/Footer";
 import Pic1 from "../src/assets/gallery/land1.jpg";
 import Pic2 from "../src/assets/gallery/land2.jpg";
 import Pic3 from "../src/assets/gallery/wed3.jpg";
@@ -53,6 +53,32 @@ const Gallery = () => {
 
               <div className="gallery-item">
                 <img src={Pic8} alt="nature" />
+              </div>
+              <div className="gallery-item">
+                <img src={Pic6} alt="street" />
+              </div>
+
+              <div className="gallery-item">
+                <img src={Pic4} alt="wedding" />
+              </div>
+              <div className="gallery-item">
+                <img src={Pic7} alt="street" />
+              </div>
+
+              <div className="gallery-item">
+                <img src={Pic8} alt="nature" />
+              </div>
+
+              <div className="gallery-item">
+                <img src={Pic1} alt="landscape" />
+              </div>
+
+              <div className="gallery-item">
+                <img src={Pic5} alt="street" />
+              </div>
+
+              <div className="gallery-item">
+                <img src={Pic3} alt="wedding" />
               </div>
             </div>
           </div>
