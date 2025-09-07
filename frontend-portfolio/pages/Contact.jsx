@@ -32,7 +32,7 @@ const Contact = () => {
     onSubmit: async (values, action) => {
       const {name, email, subject, message} = values;
       try {
-        const response = await fetch("http://localhost:3001/api/messages/createMessage", {
+        const response = await fetch("https://boundless-moments.onrender.com/api/messages/createMessage", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",

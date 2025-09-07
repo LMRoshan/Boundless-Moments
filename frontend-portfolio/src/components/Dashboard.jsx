@@ -18,7 +18,7 @@ const Dashboard = () => {
         return;
       }
       const response = await fetch(
-        "http://localhost:3001/api/messages/getMessages",
+        "https://boundless-moments.onrender.com/api/messages/getMessages",
         {
           method: "GET",
           headers: {
@@ -46,7 +46,7 @@ const Dashboard = () => {
       }
 
       const response = await fetch(
-        `http://localhost:3001/api/messages/deleteMessage/${id}`,
+        `https://boundless-moments.onrender.com/api/messages/deleteMessage/${id}`,
         {
           method: "DELETE",
           headers: {
