@@ -17,7 +17,7 @@ import mongoose from "mongoose";
 
 const connectDB = async () => {
     try {
-        const conn = await mongoose.connect('mongodb+srv://roshan:yourrealpassword@acsend.tw7etwf.mongodb.net/boundlessmoments?retryWrites=true&w=majority&appName=acsend');
+        const conn = await mongoose.connect('mongodb+srv://roshan:roshan497@acsend.tw7etwf.mongodb.net/boundlessmoments?retryWrites=true&w=majority&appName=acsend');
         console.log(`MongoDB Connected: ${conn.connection.host}`);
     } catch (error) {
         console.error('Database connection error:', error.message);
